@@ -1,0 +1,570 @@
+body {
+    margin: 0;
+    font-family: 'futura', sans-serif;
+    color: #2C4268;
+    background-image: url(images/background1.png);
+    background-size:cover;
+}
+
+/*
+.container {
+       height:100%;
+        background-image:url(images/background1.png);
+        background-size:cover;
+        background-attachment: center;
+}
+*/
+
+/*TOP NAVIGATION STYILNG*/
+.topnav {
+    width: 100%;
+    height:0px;
+    margin: 0 auto;
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;    
+    
+
+}
+
+main {
+    width:100%;
+/*    margin-top: 100px;*/
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    text-transform:uppercase;
+    font-size: 20px;
+    color: #2C4268;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: #2C4268;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0%;
+    background-color: #2C4268;
+    position: absolute;
+    bottom: -12px;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+/*HOME SCREEN*/
+#home {
+    margin:0 auto;
+    background-image: url("images/background.png");
+    height:120px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 2;
+    padding: 20%;
+    position:relative;
+    
+}
+
+.fun{
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, .1);
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
+
+
+ 
+/*
+h1 {
+    font-family: "futura", sans-serif;
+    font-size: 350;
+    text-align: center;
+    color: #444;
+        
+}
+
+/*ABOUT PAGE*/
+#about {
+    font-family: "futura", sans-serif;
+    font-size: 150%;
+    color: #2C4268;
+    padding:20%;
+    background-image: url(images/background1.png);
+    background-size:contain;
+/*    box-shadow: 0 -2px 7px rgba(0, 0, 0, .7);*/
+    box-shadow:0 -1px 3px rgba(0, 0, 0, 0.3),;
+    z-index: 3;
+    
+}
+.clickhere {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 70%;
+    color: white;
+   
+    
+}
+*/
+
+.slide {
+    position: relative;
+    padding: 25% 10%;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 7px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+
+
+
+
+.heading {
+    margin-left: 10%;
+    margin-top: 100px;
+    font-size: 175%;
+}
+
+
+
+.title {
+    /*width: 273px;*/
+    height: 40px;
+    background: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 65%;
+    opacity: 0.75;
+    background-blend-mode: multiply;
+    color: black;
+    line-height: 250%;
+}
+
+.title:hover{
+    background-color: white;
+    opacity: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+/*    background: #E5E5E5;*/
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.popular{
+    background-image: url(images/popular.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.board{
+    background-image:url(images/board.jpg);
+    background-size: cover;
+    background-position: center;
+}.card{
+    background-image: url(images/card.jpg);
+    background-size: cover;
+    background-position: center;
+}.drawing{
+    background-image: url(images/drawing.jpg);
+    background-size: cover;
+    background-position: center;
+}.word{
+    background-image: url(images/word.jpg);
+    background-size: cover;
+    background-position: center;
+}.social{
+    background-image: url(images/social.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/1685effb7e0aea823a6acbc86b6d63657719ea4e.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Poker.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/1200px-ACE_CAR_-A.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Crazy8BLOG_20162.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/WZ5_back_675f9183-0e5a-4303-9a02-5767734ba959_grande.jpg);
+    background-size: 155%;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box6 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Capture.JPG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/wp3748782.jpg);
+    background-size: cover;
+    background-color: #000;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box8 {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Hanabi_cover.jpg);
+    background-size: cover;
+    background-color: #000;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.categorygrid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    height: 90%;
+    align-content: center;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.gamesgrid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    height: 90%;
+    align-content: center;
+    margin: auto;
+
+
+}
+
+@media only screen and (max-width:1200px){
+    .gamesgrid {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 96%;
+    }
+     .heading{
+        margin-top: 50px;;
+        margin-left: 3%;
+    }
+    .categorygrid {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+    }
+     #home{
+          background-attachment: inherit;
+    }
+}
+    
+
+@media only screen and (max-width:700px) {
+    .gamesgrid {
+        grid-template-columns: 1fr 1fr;
+        width: 98%;
+    }
+
+    .categorygrid {
+        grid-template-columns: 1fr 1fr;
+        width: 98%;
+    }
+
+/*
+    
+    main{
+        margin-top: 100px;
+    }
+*/
+
+    .container {
+        width: 100%;
+    }
+
+        .heading{
+        margin-top: 50px;;
+        margin-left: 1%;
+    }
+        
+    .topnav{
+        margin: 0;
+        padding-left: 1%;
+/*        padding-right: 1%;*/
+        position: absolute;
+    }
+    #home{
+          background-attachment: inherit;
+    }
+    
+    nav a{
+        font-size:13px;
+    }
+    
+    nav li {
+            padding-top: 8px;
+
+    }
+    
+    #about {
+        font-size:15px;
+
+    }
+    }
+}
+
+
+a {
+/*    color: black;*/
+    font-size: 100%;
+    font-weight: 550;
+    vertical-align: middle;
+}
+
+img {
+    width: 100%;
+    height: 80%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+/*BOARD GAME PICTURES*/
+#monopoly {
+    background-image:url(images/monopoly1.jpg);
+}
+
+#chess {
+    background-image:url(images/chess.jpg);
+}
+
+#checkers {
+    background-image: url(images/checkers.webp);
+}
+
+#battle {
+    background-image: url(images/battleship.jpg);
+}
+
+#risk {
+    background-image: url(images/risk.jpg);
+}
+
+#catan {
+    background-image: url(images/catan.jpg)
+}
+
+#stratego {
+    background-image: url(images/stratego.png)
+}
+
+#diplomacy {
+    background-image: url(images/diplomacy.jpg)
+}
+
+/*SOCIAL DEDUCTION GAMES*/
+#spy {
+    background-image: url(images/spy.jpg)
+}
+
+#hitler {
+    background-image: url(images/social.jpg)
+}
+
+#werewolf {
+    background-image: url(images/werewolf.jpg)
+}
+
+#resistance {
+    background-image: url(images/resistance.png)
+}
+
+#salem {
+    background-image: url(images/salem.jpg)
+}
+
+#mafia {
+    background-image: url(images/mafie.jpg)
+}
+#inhuman {
+    background-image: url(images/inhuman.png)
+}
+#coup {
+    background-image: url(images/coup1.jpg)
+}
+
+.pictionary{
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.telestrations{
+    background-image: url(images/tele.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.tic{
+   background-image: url(images/tic.png);
+    background-size: cover;
+    background-position: center; 
+}
+.ultimate{
+    background-image: url(images/ultimate.png);
+    background-size: cover;
+    background-position: center;
+}
+.fake{
+    background-image: url(images/A-Fake-Artist-275x180-c-default.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.something{
+    background-image: url(images/draw-something.jpg);
+    background-size: cover;
+    
+}
+.quick{
+    background-image: url(images/quick.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.stickman{
+    background-image: url(images/stickman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.scrabble{
+    background-image: url(images/scrabble.jpg);
+    background-size: cover;
+    background-position: center;
+}.boggle{
+    background-image: url(images/boggle.png);
+    background-size: cover;
+    background-position: center;
+}.code{
+    background-image: url(images/Codenames.jpg);
+    background-size: cover;
+    background-position: center;
+}.scatter{
+    background-image: url(images/scatter.jpg);
+    background-size: cover;
+    background-position: center;
+}.taboo{
+    background-image: url(images/taboo.jpg);
+    background-size: cover;
+    background-position: center;
+}.city{
+    background-image: url(images/city.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.jair{
+    background-image: url(images/letterscopy.png);
+    background-size: cover;
+    background-position: center;
+}.just{
+    background-image: url(images/just.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Most popular images*/
+#tetris {
+    background-image: url(images/maxresdefault.jpg)
+}
+#slither {
+    background-image: url(images/Slither.io_.jpg)
+}
+#sudoku {
+    background-image: url(images/universal-sudoku-web-resize.jpg)
+}
+#pictionary {
+    background-image: url(images/pic.jpg)
+}
+#drawful {
+    background-image: url(images/Captured.JPG)
+}
+#boggle {
+    background-image: url(images/boggle.png)
+}
+#tic {
+    background-image: url(images/tic.png)
+}
